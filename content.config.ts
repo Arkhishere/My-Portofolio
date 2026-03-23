@@ -1,5 +1,5 @@
-import { defineCollection, z } from '@nuxt/content'
-import { asSeoCollection } from '@nuxtjs/seo/content'
+import { defineCollection } from '@nuxt/content'
+import { z } from 'zod'
 
 const commonContentSchema = z.object({
   title: z.string(),
@@ -42,62 +42,50 @@ const commonFaqSchema = z.object({
 })
 
 export const collections = {
-  content_en: defineCollection(
-    asSeoCollection({
-      type: 'page',
-      source: {
-        include: 'en/**/*.md',
-        exclude: ['en/articles/*.md'],
-        prefix: '/en',
-      },
-      schema: commonContentSchema,
-    }),
-  ),
-  content_id: defineCollection(
-    asSeoCollection({
-      type: 'page',
-      source: {
-        include: 'id/**/*.md',
-        exclude: ['id/articles/*.md'],
-        prefix: '/id',
-      },
-      schema: commonContentSchema,
-    }),
-  ),
-  articles_en: defineCollection(
-    asSeoCollection({
-      type: 'page',
-      source: {
-        include: 'en/articles/*.md',
-        prefix: '/en/articles',
-      },
-      schema: commonArticleSchema,
-    }),
-  ),
-  articles_id: defineCollection(
-    asSeoCollection({
-      type: 'page',
-      source: {
-        include: 'id/articles/*.md',
-        prefix: '/id/articles',
-      },
-      schema: commonArticleSchema,
-    }),
-  ),
-  projects_en: defineCollection(
-    asSeoCollection({
-      type: 'data',
-      source: 'en/projects/*.json',
-      schema: commonProjectSchema,
-    }),
-  ),
-  projects_id: defineCollection(
-    asSeoCollection({
-      type: 'data',
-      source: 'id/projects/*.json',
-      schema: commonProjectSchema,
-    }),
-  ),
+  content_en: defineCollection({
+    type: 'page',
+    source: {
+      include: 'en/**/*.md',
+      exclude: ['en/articles/*.md'],
+      prefix: '/en',
+    },
+    schema: commonContentSchema,
+  }),
+  content_id: defineCollection({
+    type: 'page',
+    source: {
+      include: 'id/**/*.md',
+      exclude: ['id/articles/*.md'],
+      prefix: '/id',
+    },
+    schema: commonContentSchema,
+  }),
+  articles_en: defineCollection({
+    type: 'page',
+    source: {
+      include: 'en/articles/*.md',
+      prefix: '/en/articles',
+    },
+    schema: commonArticleSchema,
+  }),
+  articles_id: defineCollection({
+    type: 'page',
+    source: {
+      include: 'id/articles/*.md',
+      prefix: '/id/articles',
+    },
+    schema: commonArticleSchema,
+  }),
+  projects_en: defineCollection({
+    type: 'data',
+    source: 'en/projects/*.json',
+    schema: commonProjectSchema,
+  }),
+  projects_id: defineCollection({
+    type: 'data',
+    source: 'id/projects/*.json',
+    schema: commonProjectSchema,
+  }),
   stack: defineCollection({
     type: 'data',
     source: 'stack.json',

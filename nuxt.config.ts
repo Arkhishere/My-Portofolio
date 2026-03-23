@@ -5,7 +5,7 @@ export default defineNuxtConfig({
     '@nuxtjs/i18n',
     '@nuxtjs/seo',
     '@nuxt/content',
-    'nuxt-studio',
+    ...(!process.env.NODE_ENV || process.env.NODE_ENV === 'development' ? ['nuxt-studio'] : []),
     '@nuxt/image',
     '@nuxt/scripts',
     'vue-sonner/nuxt',
