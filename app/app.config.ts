@@ -19,8 +19,8 @@ export default defineAppConfig({
     spotify: 'https://open.spotify.com/user/312v6ozlkirjq523r35gld2rf57a?si=574be0e798744543',
   },
   seo: {
-    title: 'Arkhaa - Full-stack Developer & Networking Enthusiast',
-    description: 'Full-stack developer and networking enthusiast. I build scalable web applications while ensuring the infrastructure behind them is rock solid.',
+    title: 'Arkhaa - Portfolio',
+    description: 'Frontend Developer from Indonesia. I build clean and modern websites.',
     url: 'https://arkhaa.dev',
   },
   ui: {
