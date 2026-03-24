@@ -24,7 +24,7 @@ export default defineNuxtConfig({
     enabled: true,
   },
 
-  css: ['~/assets/style/main.css'],
+  css: ['~~/app/assets/style/main.css'],
 
   site: {
     url: 'https://arkhaa.dev',
