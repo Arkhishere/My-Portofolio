@@ -1,0 +1,53 @@
+{
+  "title": "FAQ",
+  "subtitle": "Things I get asked a lot",
+  "faqQuestions": [
+    {
+      "title": "Services",
+      "questions": [
+        {
+          "label": "What services do you offer?",
+          "content": "I offer full-stack web development (frontend & backend), infrastructure & networking setup, API design, cloud deployment, and technical consulting. If it involves code or servers, I can help."
+        },
+        {
+          "label": "Can you build both the app and its infrastructure?",
+          "content": "Yes — that's actually my specialty. I combine software development with networking knowledge to deliver rock-solid, end-to-end solutions."
+        }
+      ]
+    },
+    {
+      "title": "Pricing",
+      "questions": [
+        {
+          "label": "How much does a project cost?",
+          "content": "Cost depends on scope, complexity, and timeline. Reach out with your project details and I'll give you a fair, transparent quote."
+        },
+        {
+          "label": "How does payment work?",
+          "content": "I typically ask for a deposit before starting, with the remainder due upon delivery. Details are discussed per project."
+        },
+        {
+          "label": "How long does a project usually take?",
+          "content": "Most projects are scoped between 1 week and 2 months depending on features and integrations needed."
+        },
+        {
+          "label": "Do you offer student or startup discounts?",
+          "content": "I review each case individually. If you're a student or early-stage startup, just mention it — I'm happy to find something that works."
+        }
+      ]
+    },
+    {
+      "title": "Personal",
+      "questions": [
+        {
+          "label": "What do you enjoy most about this work?",
+          "content": "The intersection of software and infrastructure — I love when a beautifully written app runs on a network I also designed. It's the full picture."
+        },
+        {
+          "label": "Hobbies outside of work?",
+          "content": "Tinkering with home labs, exploring networking protocols, gaming, and occasionally breaking things on purpose just to learn how to fix them."
+        }
+      ]
+    }
+  ]
+}

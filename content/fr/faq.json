@@ -1,0 +1,53 @@
+{
+  "title": "FAQ",
+  "subtitle": "Questions qu'on me pose souvent",
+  "faqQuestions": [
+    {
+      "title": "Services",
+      "questions": [
+        {
+          "label": "Quels services est-ce que tu proposes ?",
+          "content": "Je propose du développement web full-stack (frontend & backend), de la mise en place d'infrastructure réseau, de la conception d'API, du déploiement cloud et du conseil technique."
+        },
+        {
+          "label": "Tu peux gérer à la fois l'application et son infrastructure ?",
+          "content": "Oui — c'est justement ma spécialité. Je combine développement logiciel et connaissances réseau pour livrer des solutions complètes et solides."
+        }
+      ]
+    },
+    {
+      "title": "Tarification",
+      "questions": [
+        {
+          "label": "Combien coûte un projet ?",
+          "content": "Le coût dépend du périmètre, de la complexité et du délai. Contacte-moi avec les détails de ton projet et je te ferai un devis transparent."
+        },
+        {
+          "label": "Comment fonctionne le paiement ?",
+          "content": "Je demande généralement un acompte avant de commencer, le reste étant dû à la livraison. Les détails sont discutés au cas par cas."
+        },
+        {
+          "label": "Combien de temps dure un projet en général ?",
+          "content": "La plupart des projets se situent entre 1 semaine et 2 mois selon les fonctionnalités et les intégrations requises."
+        },
+        {
+          "label": "Des réductions pour étudiants ou startups ?",
+          "content": "J'étudie chaque cas individuellement. Si tu es étudiant ou une startup en démarrage, mentionne-le — je suis ouvert à trouver quelque chose qui convient."
+        }
+      ]
+    },
+    {
+      "title": "Personnel",
+      "questions": [
+        {
+          "label": "Ce que tu préfères dans ce travail ?",
+          "content": "L'intersection entre logiciel et infrastructure — j'adore quand une app bien conçue tourne sur un réseau que j'ai aussi configuré. C'est la vision globale."
+        },
+        {
+          "label": "Des passions en dehors du travail ?",
+          "content": "Bidouiller des home labs, explorer les protocoles réseau, le gaming, et parfois casser des choses exprès juste pour apprendre à les réparer."
+        }
+      ]
+    }
+  ]
+}

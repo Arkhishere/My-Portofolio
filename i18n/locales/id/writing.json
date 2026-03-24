@@ -1,0 +1,16 @@
+{
+  "title": "Tulisan",
+  "description": "Beberapa tulisan tentang hal-hal yang saya minati",
+  "empty": "Belum ada artikel, tapi segera hadir!",
+  "not_found": "Tidak ada artikel yang sesuai dengan pencarian Anda",
+  "not_found_description": "Kami tidak menemukan artikel yang cocok. Coba gunakan kata kunci lain.",
+  "back_link": "Kembali ke daftar artikel",
+  "readingTime": "menit baca",
+  "share": "Bagikan artikel",
+  "copy_link": "Salin tautan",
+  "search_article": "Cari artikel",
+  "blog": "Blog",
+  "unknown_author": "Penulis tidak diketahui",
+  "show_search": "Cari",
+  "hide_search": "Sembunyikan pencarian"
+}

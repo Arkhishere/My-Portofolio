@@ -1,0 +1,20 @@
+{
+  "title": "Hubungi Saya",
+  "description": "Mari diskusikan ide, proyek, atau hal lainnya!",
+  "fullname": "Nama lengkap",
+  "email": "Email",
+  "phone": "Nomor telepon",
+  "subject": "Subjek pesan Anda",
+  "message": "Pesan",
+  "submit": "Kirim",
+  "disabled": "Anda perlu mengatur API key Resend terlebih dahulu",
+  "success": "Pesan Anda berhasil dikirim",
+  "error": "Ups, terjadi kesalahan saat mengirim pesan :(",
+  "budget": "Anggaran",
+  "subject_types": {
+    "project": "Diskusi proyek",
+    "bug": "Laporkan bug",
+    "question": "Ajukan pertanyaan",
+    "other": "Lainnya"
+  }
+}

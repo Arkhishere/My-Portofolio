@@ -1,0 +1,53 @@
+{
+  "title": "FAQ",
+  "subtitle": "Pertanyaan yang sering ditanyakan",
+  "faqQuestions": [
+    {
+      "title": "Layanan",
+      "questions": [
+        {
+          "label": "Layanan apa yang kamu tawarkan?",
+          "content": "Saya menawarkan pengembangan web full-stack (frontend & backend), pengaturan infrastruktur & jaringan, desain API, deployment cloud, dan konsultasi teknis. Jika ada hubungannya dengan kode atau server, saya bisa bantu."
+        },
+        {
+          "label": "Bisa bangun aplikasi sekaligus infrastrukturnya?",
+          "content": "Ya — itu justru keahlian utama saya. Saya menggabungkan pengembangan perangkat lunak dengan pengetahuan jaringan untuk menghadirkan solusi end-to-end yang solid."
+        }
+      ]
+    },
+    {
+      "title": "Harga",
+      "questions": [
+        {
+          "label": "Berapa biaya sebuah proyek?",
+          "content": "Biaya tergantung pada ruang lingkup, kompleksitas, dan tenggat waktu. Hubungi saya dengan detail proyekmu dan saya akan memberikan penawaran yang transparan."
+        },
+        {
+          "label": "Bagaimana sistem pembayarannya?",
+          "content": "Biasanya saya meminta uang muka sebelum memulai, dengan sisa pembayaran saat pengiriman. Detail dibahas per proyek."
+        },
+        {
+          "label": "Berapa lama waktu pengerjaan proyek?",
+          "content": "Kebanyakan proyek membutuhkan waktu antara 1 minggu hingga 2 bulan tergantung pada fitur dan integrasi yang dibutuhkan."
+        },
+        {
+          "label": "Ada diskon untuk mahasiswa atau startup?",
+          "content": "Saya meninjau setiap kasus secara individual. Jika kamu mahasiswa atau startup tahap awal, sebutkan saja — saya terbuka untuk mendiskusikan harga yang sesuai."
+        }
+      ]
+    },
+    {
+      "title": "Personal",
+      "questions": [
+        {
+          "label": "Apa yang paling kamu sukai dari pekerjaan ini?",
+          "content": "Persinggungan antara perangkat lunak dan infrastruktur — saya suka ketika aplikasi yang ditulis dengan baik berjalan di atas jaringan yang juga saya rancang. Itulah gambaran utuhnya."
+        },
+        {
+          "label": "Hobi di luar pekerjaan?",
+          "content": "Utak-atik home lab, menjelajahi protokol jaringan, gaming, dan kadang sengaja merusak sesuatu hanya untuk belajar cara memperbaikinya."
+        }
+      ]
+    }
+  ]
+}
