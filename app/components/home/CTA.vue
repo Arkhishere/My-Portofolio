@@ -30,20 +30,5 @@ const appConfig = useAppConfig()
       </NuxtLink>
     </div>
 
-    <!-- Deploy button (small) -->
-    <div class="mt-1">
-      <NuxtLink
-        href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FHugoRCD%2Fcanvas&env=NUXT_PRIVATE_RESEND_API_KEY,NUXT_PUBLIC_SITE_URL"
-        target="_blank"
-      >
-        <button
-          id="cta-deploy"
-          class="flex items-center gap-1.5 rounded-full border border-white/5 px-3 py-1 text-xs font-medium text-zinc-500 transition-all duration-200 hover:border-white/10 hover:text-zinc-300"
-        >
-          <UIcon name="lucide:play" class="size-3" />
-          Deploy
-        </button>
-      </NuxtLink>
-    </div>
   </div>
 </template>
