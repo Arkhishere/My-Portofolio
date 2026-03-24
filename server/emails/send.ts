@@ -8,18 +8,19 @@ export default defineEventHandler(async (event: H3Event) => {
     const body = (await readBody(event))
     const { email, subject, message, phone, fullname } = body
     return await resend.emails.send({
-      from: 'HR Folio <contact@hrcd.fr>',
-      to: ['contact@hrcd.fr'],
-      subject: 'Nouveau message de HR Folio',
+      from: 'Portfolio Contact <onboarding@resend.dev>',
+      to: ['heyitsradinka@gmail.com'],
+      replyTo: email,
+      subject: `Pesan Baru dari Portfolio: ${subject}`,
       html: `
-      <p>Un nouveau message a été envoyé depuis le formulaire de contact de HR Folio.</p>
-      <p>Voici les détails du message :</p>
+      <h2>Ada pesan baru dari Website Portfolio Anda!</h2>
+      <p>Berikut adalah detail pesannya:</p>
       <ul>
-        <li>Nom : ${fullname}</li>
-        <li>Email : ${email}</li>
-        <li>Téléphone : ${phone}</li>
-        <li>Sujet : ${subject}</li>
-        <li>Message : ${message}</li>
+        <li><strong>Nama:</strong> ${fullname}</li>
+        <li><strong>Email:</strong> ${email}</li>
+        <li><strong>No. HP:</strong> ${phone}</li>
+        <li><strong>Subjek:</strong> ${subject}</li>
+        <li><strong>Pesan:</strong> ${message}</li>
       </ul>
       `,
     })
