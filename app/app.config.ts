@@ -16,7 +16,7 @@ export default defineAppConfig({
     twitter: 'https://x.com/Arkaa96',
     linkedin: 'https://www.linkedin.com/in/sanz-ekas-9015873b9',
     instagram: 'https://www.instagram.com/hoshifuru._/',
-    spotify: 'https://open.spotify.com/user/312v6ozlkirjq523r35gld2rf57a?si=574be0e798744543',
+    whatsapp: 'https://wa.me/6287841779920',
   },
   seo: {
     title: 'Arkhaa - Portfolio',
