@@ -80,7 +80,7 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
             type="text"
             autocomplete="name"
             class="w-full"
-            placeholder="John Doe"
+            placeholder="Arka"
           />
         </UFormField>
 
@@ -93,7 +93,7 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
             v-model="state.email"
             autocomplete="email"
             class="w-full"
-            placeholder="john.doe@gmail.com"
+            placeholder="arkana@gmail.com"
           />
         </UFormField>
 
